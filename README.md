@@ -34,4 +34,4 @@ This program enables communication between a computer and the STM microcontrolle
 
 ### Project 6: FIFO Queue
 
-This project implements a FIFO (First-In, First-Out) queue that buffers received ASCII characters on the microcontroller. When a space character is received, the program outputs one element from the buffer. If a period is received, the program clears the entire buffer and outputs all its contents. The buffer size is initially set to 6, but this can easily be changed by modifying the ' #define BUFFER_SIZE 5' directive.
+This project implements a FIFO (First-In, First-Out) queue that buffers received ASCII characters on the microcontroller. When a space character is received, the program outputs one element from the buffer. If a period is received, the program clears the entire buffer and outputs all its contents. The buffer size is initially set to 6, but this can easily be changed by modifying the ` #define BUFFER_SIZE 5 ` directive.
